@@ -1,28 +1,108 @@
 ﻿<!DOCTYPE html>
 
 <style>
-    body { 
-        background-color: black; 
-        background-image: url("https://github.com/highlevellayout/highlevellayout.github.io/raw/master/images/bg.png"); 
-        background-repeat: repeat-y; 
-
+    body {
+        background-color: black;
+        background-image: url("https://github.com/highlevellayout/highlevellayout.github.io/raw/master/images/bg.png");
+        background-repeat: repeat-y;
+        font-family:Arial, Helvetica, sans-serif; 
+        font-size: xx-large;
+        color:white;
+    }
+    pre {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        color: white;
     }
     h1{
-        font-family:'Global User Interface';
+        font-family:Arial, Helvetica, sans-serif;
         font-size:xx-large;
     }
     img {
         width: 100%;
     }
+    .posts {
+        float: right;
+        width: 25%;
+        padding-left: 20px;
+        height:700px;
+        background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    }
+    .card {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgba(0.1, 0.1, 0.1, 0.5);
+        width:90%;
+        height:90%;
+    }
+    .topBar {
+        position: sticky;
+        top: 0px;
+        background-color: rgba(0.1, 0.1, 0.1, 0.5);
+    }
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:focus {
+            color: red;
+        }
+
+        a:hover, a:active {
+            color: red
+        }
 </style>
 
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>HLL organization</title>
+    <link rel="icon" href="https://github.com/highlevellayout/highlevellayout.github.io/blob/master/images/Logo-icon.png?raw=true" type="image/png" />
+    <link rel="shortcut icon" href="https://github.com/highlevellayout/highlevellayout.github.io/blob/master/images/Logo-icon.png?raw=true" type="image/png" />
 </head>
 <body>
-    <img src="https://github.com/highlevellayout/highlevellayout.github.io/raw/master/images/Logo-banner.png"/>
+    <!--Sidebars etc-->
+    <img src="https://github.com/highlevellayout/highlevellayout.github.io/raw/master/images/Logo-banner.png" alt="The HLL organization logo" title="The HLL organization logo"/>
+
+    <div class="posts">
+        <h1>Blog Posts</h1>
+        None
+    </div>
+
+    <!--Actual contents-->
+
+    <p>
+        Welcome to the <strong>High Level Layout Organization</strong>!
+    </p>
+    <p>
+        HLL(<i>High Level Layout</i>) is a layout language created by us!
+        <br />
+        We develop tools such as
+        <ul>
+            <li>An official HLL viewer/browser</li>
+            <li><a href="https://github.com/highlevellayout/HLL-standards" target="_blank">HLL standards</a></li>
+        </ul>
+        and more!
+    </p>
+
+    <!--EOF-->
 </body>
 </html>
