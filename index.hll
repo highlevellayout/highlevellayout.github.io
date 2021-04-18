@@ -1,0 +1,6 @@
+[font, 10];
+[text, 5, 20, "I"];
+[font, 20];
+[text, 20, 60, "Like"];
+[font, 100];
+[link, 70, 5, "HLL", "https://raw.githubusercontent.com/Khhs167/kGamesLauncher/main/testThing.hll"];
