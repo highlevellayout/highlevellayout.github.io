@@ -1,4 +1,4 @@
-[image, 0, 0, "/images/bg.png"];
+[image, 0, 0, "https://highlevellayout.github.io/images/bg.png"];
 [font, 10];
 [text, 5, 20, "I"];
 [font, 20];
